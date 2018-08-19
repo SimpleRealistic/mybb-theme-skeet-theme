@@ -1,0 +1,52 @@
+<?php
+/* by Tomasz 'Devilshakerz' Mlynski [devilshakerz.com]; Copyright (C) 2014-2016
+ released under Creative Commons BY-NC-SA 4.0 license: https://creativecommons.org/licenses/by-nc-sa/4.0/ */
+
+$l['setting_dvz_sb_num'] = 'Shouts to display';
+$l['setting_dvz_sb_num_desc'] = 'Number of shouts to be displayed in the Shoutbox window.';
+$l['setting_dvz_sb_num_archive'] = 'Shouts to display on archive';
+$l['setting_dvz_sb_num_archive_desc'] = 'Number of shouts to be displayed per page on Archive view.';
+$l['setting_dvz_sb_reversed'] = 'Reversed order';
+$l['setting_dvz_sb_reversed_desc'] = 'Reverses the shouts display order in the Shoutbox window so that new ones appear on the bottom. You may also want to move the <b>{$panel}</b> variable below the  window in the <i>dvz_shoutbox</i> template.';
+$l['setting_dvz_sb_height'] = 'Shoutbox height';
+$l['setting_dvz_sb_height_desc'] = 'Height of the Shoutbox window in pixels.';
+$l['setting_dvz_sb_dateformat'] = 'Date format';
+$l['setting_dvz_sb_dateformat_desc'] = 'Format of the date displayed. This format uses the PHP\'s <a href="https://secure.php.net/manual/en/function.date.php#refsect1-function.date-parameters">date() function syntax</a>.';
+$l['setting_dvz_sb_maxlength'] = 'Maximum message length';
+$l['setting_dvz_sb_maxlength_desc'] = 'Set 0 to disable the limit.';
+$l['setting_dvz_sb_mycode'] = 'Parse MyCode';
+$l['setting_dvz_sb_mycode_desc'] = '';
+$l['setting_dvz_sb_smilies'] = 'Parse smilies';
+$l['setting_dvz_sb_smilies_desc'] = '';
+$l['setting_dvz_sb_interval'] = 'Refresh interval';
+$l['setting_dvz_sb_interval_desc'] = 'Number of seconds between Shoutbox updates (lower values provide better synchronization but cause higher server load). Set 0 to disable the auto-refreshing feature.';
+$l['setting_dvz_sb_away'] = 'Away mode';
+$l['setting_dvz_sb_away_desc'] = 'Number of seconds after last user action (e.g. click) after which shoutbox will be minimized to prevent unnecessary usage of server resources. Set 0 to disable this feature.';
+$l['setting_dvz_sb_antiflood'] = 'Anti-flood interval';
+$l['setting_dvz_sb_antiflood_desc'] = 'Forces a minimum number of seconds to last between user\'s shouts (this does not apply to Shoutbox moderators).';
+$l['setting_dvz_sb_sync'] = 'Moderation synchronization';
+$l['setting_dvz_sb_sync_desc'] = 'Applies moderation actions without refreshing the Shoutbox window page.';
+$l['setting_dvz_sb_mark_unread'] = 'Mark unread messages';
+$l['setting_dvz_sb_mark_unread_desc'] = 'Marks messages that appeared after user\'s last visit.';
+$l['setting_dvz_sb_lazyload'] = 'Lazy load';
+$l['setting_dvz_sb_lazyload_desc'] = 'Start loading data only when the Shoutbox window is actually being displayed on the screen (the page is scrolled to the Shoutbox position).';
+$l['setting_dvz_sb_status'] = 'Shoutbox default status';
+$l['setting_dvz_sb_status_desc'] = 'Choose whether Shoutbox window should be expanded or collapsed by default.';
+$l['setting_dvz_sb_minposts'] = 'Minimum posts required to shout';
+$l['setting_dvz_sb_minposts_desc'] = 'Set 0 to allow everyone.';
+$l['setting_dvz_sb_groups_view'] = 'Group permissions: View';
+$l['setting_dvz_sb_groups_view_desc'] = 'User groups that can view Shoutbox.';
+$l['setting_dvz_sb_groups_refresh'] = 'Group permissions: Auto-refresh';
+$l['setting_dvz_sb_groups_refresh_desc'] = 'User groups that shoutbox will be refreshing for.';
+$l['setting_dvz_sb_groups_shout'] = 'Group permissions: Shout';
+$l['setting_dvz_sb_groups_shout_desc'] = 'User groups that can post shouts in Shoutbox (logged in users only).';
+$l['setting_dvz_sb_groups_recall'] = 'Group permissions: Scroll back to show past shouts';
+$l['setting_dvz_sb_groups_recall_desc'] = 'User groups that shoutbox will load previous posts when scrolling back for.';
+$l['setting_dvz_sb_groups_mod'] = 'Group permissions: Moderation';
+$l['setting_dvz_sb_groups_mod_desc'] = 'User groups that can moderate the Shoutbox (edit and delete shouts).';
+$l['setting_dvz_sb_groups_mod_own'] = 'Group permissions: Moderation of own shouts';
+$l['setting_dvz_sb_groups_mod_own_desc'] = 'Users groups whose members can edit and delete their own shouts.';
+$l['setting_dvz_sb_supermods'] = 'Super moderators are Shoutbox moderators';
+$l['setting_dvz_sb_supermods_desc'] = 'Automatically allow forum super moderators to moderate Shoutbox as well.';
+$l['setting_dvz_sb_blocked_users'] = 'Banned users';
+$l['setting_dvz_sb_blocked_users_desc'] = 'Comma-separated list of user IDs that are banned from posting messages.';
